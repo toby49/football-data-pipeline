@@ -1,6 +1,6 @@
-# Football Data Pipeline 🏆⚽
+# Football Data Pipeline ⚽
 
-## 📌 Project Overview
+## 📌 ELT Project Overview
 This project extracts Premier League match data from API-Football, loads it into Google BigQuery, and transforms it using DBT. The entire process is orchestrated using Apache Airflow.
 
 ## 🔹 Features
@@ -10,11 +10,10 @@ This project extracts Premier League match data from API-Football, loads it into
 - Orchestrates everything with Apache Airflow
 - Implements a star schema (fact & dimension tables)
 
-## 🚀 Tech Stack
+## 🔹 Tech Stack
 - **Python** (`requests`, `pandas`)
 - **BigQuery** (Cloud Data Warehouse)
-- **DBT Core** (Data modeling & transformations)
+- **dbt Core** (Data modeling & transformations)
 - **Airflow** (Task orchestration)
-- **API-Football** (Football data API)
 
 ## Insert Schema Diagram
